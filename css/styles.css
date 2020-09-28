@@ -1,0 +1,140 @@
+body{
+	color: #fff;
+	background-color: red;} 
+#container{
+}
+button{height: 20px;
+	width: 60px;
+}
+#nav-list span:hover{
+background-color:orange;
+	color:purple;
+}
+#nav-list span2:hover{
+background-color:pink;
+	color:purple;
+}
+#nav-list span3:hover{
+background-color:purple;
+	color:purple;
+}
+button:hover{
+	background-color: green;
+	color:purple;
+}
+#header-nav{background-color: yellow;
+border-radius: 0;
+border: 0;}
+.navbar-brand h1{ text-align:left;
+	color:black;
+}
+h1{
+	color:blue;
+	text-align: center;
+}
+#collapsable-nav a{
+font-size: 1.2em;
+}
+#collapsable-nav a span{
+	font-size: 1em;
+}
+.invisible {
+  visibility: hidden !important;
+}/*styles for the body of the page*/
+#contentbox,#contents{background-color: blue;
+border:solid black; width:33.3333%;
+float:left;margin: 5px; overflow:auto;
+ }	
+#chicken{background-color: orange;
+	width:30%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:69.5%;
+}
+#beef{background-color: pink;
+	width:16%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:83.5%;
+}
+#sushi{background-color: purple;
+	width:18%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:81.5%;
+}
+@media(min-width: 992px){
+#contentbox,#contents{background-color: maroon;
+border:solid black; width:31%;
+float:left;margin: 5px;overflow:auto;
+ }	
+#chicken{background-color: orange;
+	width:30%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:70%;
+}
+#beef{background-color: pink;
+	width:16%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:85%;
+}
+#sushi{background-color: purple;
+	width:18%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:83%;
+}
+	
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+#contentbox{background-color: maroon;
+border:solid black; width:48%;
+margin: 5px;float:left;overflow:auto;
+ }		
+#contents{width:98%;
+background-color: maroon;
+border:solid black;
+margin: 5px;float:left;}
+#chicken{background-color: orange;
+	width:42%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:59.5%;
+}
+#beef{background-color: pink;
+	width:20%;
+	text-align: center;
+	border:solid black;
+	position: relative	left:79.5%;
+}
+#sushi{background-color: purple;
+	width:20%;
+	text-align: center;
+	border:solid black;
+	position: relative;
+	left:81%;	
+}	
+}
+@media(max-width: 767px){
+#contentbox,#contents{background-color: maroon;
+border:solid black; width:100%;;
+
+margin: 5px;overflow:auto;
+ }
+ .visible {
+  visibility: visible !important;
+}	
+
+
+
+	
